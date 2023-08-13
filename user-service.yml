@@ -3,9 +3,10 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}AQB9jqVD9Chnd1UxPj0SRng5YKOV86do7vCL82iBNqeEUoSQL4NE3og9+rJ/R616+756iSEClaV13TmzGkgxQRF7YqpkaIZ0qQ6601iauG2vrWf+4vjnsDKht8r4FU/N687KB/2N1BKiFzzsuS/neBo7KJkX2RikC6+yNhDfPfbTFxGim1xi6GpWwBype/VWMQ/C7oK6Sev5jmy7rJRKUdPrpiy45OL3XVBk96o6PzeKq6SkjnG49EvUR/SpNVOk+eDOJSk0b8tIaGJpkmKuuJKN8eS6Sm9Amfqu221oEdKjTAqE2g4bRYlK+6soT6Z5Weg5amEz9Y+v/FfbnwSew2AqAck40Q4CthIk0m93wWGODnb+49Zlfqx8Zw05UIjCROE='
+    password: 
 
-order_service:
-  url: http://ORDER-SERVICE/order-service/%s/orders
-  exception:
-    orders_is_empty: There is no item.
+token:
+  expiration_time: 5640000010
+  secret: MY_SECRET_20230710_#2
+gateway:
+  ip: 127.0.0.5

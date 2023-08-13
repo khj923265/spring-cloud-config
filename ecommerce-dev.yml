@@ -1,6 +1,6 @@
 token:
-  expiration_time: 86400000 # 86400000 하루
-  secret: my_token_dev_changed_#2
+  expiration_time: 864000000
+  secret: dev_config_token_#7
 
 gateway:
-  ip: 172.20.10.2
+  ip: 10.0.0.2

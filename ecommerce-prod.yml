@@ -1,6 +1,6 @@
 token:
-  expiration_time: 86400000 # 86400000 하루
+  expiration_time: 864000000
   secret: my_token_prod
 
 gateway:
-  ip: 172.20.10.2
+  ip: 192.168.0.8
