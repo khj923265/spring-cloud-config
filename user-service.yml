@@ -7,6 +7,4 @@ spring:
 
 token:
   expiration_time: 5640000010
-  secret: MY_SECRET_20230710_#2
-gateway:
-  ip: 127.0.0.5
+  secret: MY_SECRET_20230710_#2ß
